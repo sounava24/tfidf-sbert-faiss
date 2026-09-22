@@ -1,0 +1,10 @@
+# Large dataset files
+data/clean_questions.csv
+data/train.csv
+
+# FAISS index
+data/faiss.index
+
+# Embeddings
+data/embeddings.npy
+data/make_sample_data.py

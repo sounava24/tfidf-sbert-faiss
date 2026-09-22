@@ -17,9 +17,13 @@ import faiss
 from pathlib import Path
 from sentence_transformers import SentenceTransformer
 
-CORPUS_PATH = Path("data/clean_questions.csv")
+"""CORPUS_PATH = Path("data/clean_questions.csv")
 EMBEDDINGS_CACHE = Path("data/embeddings.npy")
-FAISS_INDEX_CACHE = Path("data/faiss.index")
+FAISS_INDEX_CACHE = Path("data/faiss.index")"""
+CORPUS_PATH = Path("data/demo_clean_questions.csv")
+EMBEDDINGS_CACHE = Path("data/demo_embeddings.npy")
+FAISS_INDEX_CACHE = Path("data/demo_faiss.index")
+
 MODEL_NAME = "all-MiniLM-L6-v2"   # 384-dim, small, fast, good general quality
 
 

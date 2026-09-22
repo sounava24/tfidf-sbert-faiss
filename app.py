@@ -31,7 +31,8 @@ from embeddings_search import SBERTSearchEngine
 # Configuration
 # ---------------------------------------------------------------------------
 
-CORPUS_PATH = Path("data/clean_questions.csv")
+#CORPUS_PATH = Path("data/clean_questions.csv")
+CORPUS_PATH = Path("data/demo_clean_questions.csv")
 
 st.set_page_config(
     page_title="Semantic Question Search",

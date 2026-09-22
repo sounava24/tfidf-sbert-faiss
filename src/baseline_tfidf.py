@@ -12,8 +12,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.neighbors import NearestNeighbors
 from pathlib import Path
 
-CORPUS_PATH = Path("data/clean_questions.csv")
-
+#CORPUS_PATH = Path("data/clean_questions.csv")
+CORPUS_PATH = Path("data/demo_clean_questions.csv")
 
 class TfidfSearchEngine:
     def __init__(self, corpus_df: pd.DataFrame):
