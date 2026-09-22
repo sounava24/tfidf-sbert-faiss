@@ -102,8 +102,5 @@ python src/evaluate.py
   actually understood what you were measuring instead of a wrong high number.
 
 link of quora dataset ---- https://www.kaggle.com/competitions/quora-question-pairs/data?select=train.csv.zip
-  results side by side, so the improvement is visible, not just numeric
-- FastAPI endpoint wrapping the SBERT engine
-- Deploy demo to Hugging Face Spaces
-- Cross-encoder re-ranking on top of FAISS's top-20 (how production RAG
-  systems commonly work)
+ 
+
